@@ -23,7 +23,7 @@ The login page consists of the following fields:
 4. If the credentials are valid, you will be redirected to the dashboard.
 5. If credentials are incorrect, an error message will appear.
 
-<img src="assets/login.PNG" alt="Login Page Screenshot" width="350" />
+<img src="assets/login.png" alt="Login Page Screenshot" width="350" />
 
 ### 🔄 Error Handling
 
