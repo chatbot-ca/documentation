@@ -92,6 +92,8 @@ After login, the admin is taken to the **Main Dashboard**, which displays:
 
 <img src="assets/customers.png" alt="Customers Menu Page Screenshot" width="650" />
 
+<img src="assets/customersChat.png" alt="Customers Menu Page Screenshot" width="650" />
+
 ---
 
 ### 📈 Analytics Menu
