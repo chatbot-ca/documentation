@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microdeets Documentation</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body { margin: 0; }
+.sidebar { position: fixed; top:0; bottom:0; left:0; width:250px; padding:1rem; overflow-y:auto; background-color:#f8f9fa; }
+.content { margin-left:260px; padding:2rem; }
+</style>
+</head>
+<body data-page="agent_dashboard.md">
+<nav class="sidebar">
+  <h5>Docs</h5>
+  <ul class="nav flex-column">
+    <li class="nav-item"><a class="nav-link" href="index.html">Introduction</a></li>
+    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+    <li class="nav-item"><a class="nav-link" href="customer.html">Customer</a></li>
+    <li class="nav-item"><a class="nav-link" href="agent_dashboard.html">Agent Dashboard</a></li>
+    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+    <li class="nav-item"><a class="nav-link" href="admin_dashboard.html">Admin Dashboard</a></li>
+  </ul>
+</nav>
+<main class="content"><div id="content">Loading...</div></main>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+const page = document.body.dataset.page;
+fetch(page).then(r=>r.text()).then(t=>{
+  document.getElementById('content').innerHTML = marked.parse(t);
+});
+</script>
+</body>
+</html>
