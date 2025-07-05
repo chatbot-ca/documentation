@@ -32,3 +32,7 @@ img {
   font-weight: bold;
   color: #0d6efd;
 }
+
+.fa-solid, .fas {
+    padding-right: 10px;
+}

@@ -1,58 +1,86 @@
-## <i class="fa-solid fa-headset"></i> Customer Support Agent Dashboard
+# Customer Support Agent Dashboard – User Guide
 
-The **Customer Support Agent Dashboard** provides a real-time, interactive environment for agents to manage and respond to customer inquiries efficiently.
-
----
-
-### <i class="fa-solid fa-location-dot"></i> Where to Find It
-
-- Available immediately after login.
+The **Customer Support Agent Dashboard** is the central hub for managing live customer conversations. Designed with speed, clarity, and productivity in mind, it empowers support agents to handle real-time inquiries with confidence and efficiency.
 
 ---
 
-### <i class="fa-solid fa-comments"></i> Chats Tab Overview
+## 🚪 Accessing the Dashboard
 
-The **Chats** tab allows support agents to view and handle all customer messages in real-time.
-
-#### Features:
-
-| Feature                     | Description                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| Incoming Chats              | Displays all customer messages as a queue                                   |
-| Join as Support             | Click to join as support                                                    |
-| Real-Time Messaging         | Chat instantly with customers without delays                                |
-| Customer Status             | See whether the customer is **Online**, or **Offline**                      |
-| Attachments                 | Upload and send files or images during the chat                             |
-| Close Chat                  | End the session when the issue is resolved                                  |
-| Transfer Chat               | Move the chat to another agent if needed for better handling                |
+- Accessible immediately after successful login.
+- Agents are directed to the **Chats** tab by default.
+- New and ongoing conversations appear in real time.
 
 ---
 
-### <i class="fa-solid fa-circle-check"></i> How to Use
+## 🗂️ Chats Tab Overview
 
-1. **Login** to the dashboard and go to the **Chats** tab.
-2. View the list of **incoming messages** from customers.
-3. Click **Join as Support** to handle a conversation.
-4. Start chatting with the customer instantly.
-5. You can:
-   - View the customer's **online status**.
-   - **Send attachments** (e.g., PDFs, screenshots).
-   - **Respond** to questions or issues in real time.
-6. Once the issue is resolved:
-   - Click **Close Chat**.
-   - The customer will be prompted to **rate their experience** and leave optional **comments**.
-7. If you’re unable to help:
-   - Click **Transfer Chat** and select another available agent to continue the support.
+The **Chats** tab is your primary workspace. It gives you full visibility into all customer conversations and tools to manage them effectively.
 
-<img src="assets/dashboardMessage.png" alt="Dashboard Page Screenshot" width="650" />
+### 📌 Key Features
 
-<img src="assets/insideMessage.png" alt="Dashboard Page Screenshot" width="650" />
+| Feature               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Incoming Chats**     | Displays real-time queue of customer messages                              |
+| **Join as Support**    | Allows agents to join a chat and begin supporting                          |
+| **Real-Time Messaging**| Send and receive instant messages without page refresh                     |
+| **Customer Status**    | Indicates whether a customer is **Online** or **Offline**                  |
+| **Send Attachments**   | Upload and share files (screenshots, documents, etc.)                      |
+| **Close Chat**         | End a session once the issue is resolved                                   |
+| **Transfer Chat**      | Reassign the conversation to another available agent                       |
 
 ---
 
-### <i class="fa-solid fa-arrows-rotate"></i> Chat Status Flow
+## 🧭 Step-by-Step Usage Guide
+
+### 1. Log In
+- Go to [support.microdeets.com](https://support.microdeets.com)
+- Enter your support agent credentials
+- You will land on the **Agent Dashboard**
+
+---
+
+### 2. Monitor Incoming Chats
+- Navigate to the **Chats** tab
+- View customer messages with name, preview, timestamp, and status indicators
+
+---
+
+### 3. Join a Chat Session
+- Click **Join as Support** on any incoming conversation
+- This assigns you as the primary agent for the session
+
+---
+
+### 4. Begin Live Chat
+Once joined, you can:
+- Communicate with the customer in real time
+- See when the customer is typing or has gone offline
+- Upload relevant documents or screenshots using the attachment button
+
+---
+
+### 5. Resolve or Transfer the Conversation
+- When the issue is resolved:
+  - Click **Close Chat**
+  - The customer will be prompted to rate the session and leave comments
+- If you need to involve another agent:
+  - Use **Transfer Chat** to assign it to a colleague
+
+---
+
+## 🖼️ Visual Reference
+
+![Chat Dashboard Overview](assets/dashboardMessage.png)
+*Figure 1: Chat Overview Interface*
+
+![Active Chat Interface](assets/insideMessage.png)
+*Figure 2: In-Chat Messaging View*
+
+---
+
+## 🔄 Chat Lifecycle Flow
 
 ```plaintext
-Incoming → Joined by Agent → In Progress → Closed (with Rating)
-                               ↓
-                         (or Transferred)
+Incoming Chat → Joined by Agent → In Progress 
+                        ↓
+                (Transferred if needed) → Closed (Customer Review)

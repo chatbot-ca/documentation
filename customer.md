@@ -1,83 +1,97 @@
-## <i class="fa-solid fa-comments"></i> Customer Live Chat Guide
+# Live Chat – Customer User Guide
 
-The **Live Chat** feature allows customers to easily connect with a support agent for real-time assistance. This document outlines the steps and features available to customers during the chat experience.
-
----
-
-### <i class="fa-solid fa-location-dot"></i> Where to Find It
-
-- Available on the bottom-right of the screen as a **Live Chat** icon.
-- Click to open the **Chat Popup**.
+The **Live Chat** feature enables customers to connect with a support agent in real time for immediate assistance. This guide walks you through how to start a conversation, what to expect during the interaction, and how to follow up if needed.
 
 ---
 
-### <i class="fa-solid fa-clipboard-list"></i> Getting Started
+## Where to Access Live Chat
 
-When the chat popup appears:
-
-| Field     | Type     | Required | Description                                                                 |
-|-----------|----------|----------|-----------------------------------------------------------------------------|
-| Name      | Text     | ✅       | Helps the support agent identify you                                       |
-| Email     | Text     | Optional | Recommended for follow-up if no agent is available immediately             |
-| Phone     | Text     | Optional | Alternate way for agents to reach out if email is not provided             |
-
-> ⚠️ **Note**: Providing an email or phone number is highly recommended so agents can contact you later if they’re unavailable at the moment.
-
-After submitting the form, click **Start Chat**.
+- The **Live Chat icon** appears at the bottom-right corner of every page on the website.
+- Click the icon to launch the **Chat Popup Window**.
+- Available on desktop and mobile browsers.
 
 ---
 
-### <i class="fa-solid fa-hourglass-half"></i> Before the Conversation
+## Getting Started
 
-- Once you send a message, the system will show:
+When the chat popup opens, you may be asked to fill in a short form:
+
+| Field   | Type     | Required | Description                                                  |
+|---------|----------|----------|--------------------------------------------------------------|
+| Name    | Text     | Required | Used to personalize your experience and identify you         |
+| Email   | Text     | Optional | Helps agents follow up if you're disconnected                |
+| Phone   | Text     | Optional | Alternative contact method for support follow-up             |
+
+> **Note:** Providing either an email or phone number is highly recommended if you want to receive a follow-up in case no agent is available at the moment.
+
+After entering the information, click **Start Chat** to begin.
+
+---
+
+## Waiting for an Agent
+
+After starting the chat:
+
+- The interface will show:
   - **“Waiting for support staff...”**
   - **Status: Connecting...**
 
-- When an agent joins:
-  - You'll see the **agent’s name** and their **status (Available)**.
-  - Chat will become active for two-way conversation.
+- Once an agent joins:
+  - The agent’s **name** and **availability status** will appear.
+  - The chat becomes active and you can begin two-way messaging.
 
 ---
 
-### <i class="fa-solid fa-comments"></i> During the Chat
+## Chat Features During Conversation
 
-While chatting, you can:
+While in an active chat, you can take advantage of several real-time features:
 
-| Feature                  | Description                                                                  |
-|--------------------------|------------------------------------------------------------------------------|
-| Send Messages            | Type and send messages instantly                                             |
-| Send Attachments         | Share documents, screenshots, or files with the agent                        |
-| See Agent's Status       | Know if the agent is **typing**, **viewing your message**, or **idle**       |
-| Real-Time Interaction    | Enjoy instant responses from live agents (depending on availability)         |
-
----
-
-### <i class="fa-solid fa-circle-check"></i> After the Conversation
-
-Once the support issue is resolved:
-
-1. The **agent may close the chat** to indicate the end of the session.
-2. You will be prompted to **leave a review** and optionally provide **comments** about your experience.
-3. If you want to **continue the conversation later**, you can reopen the chat and resume where you left off.
-
-<img src="assets/customer.png" alt="Customer Page Screenshot" width="650" />
-<img src="assets/customerMessage.png" alt="Customer Page Screenshot" width="650" />
+| Feature               | Description                                                              |
+|------------------------|--------------------------------------------------------------------------|
+| Instant Messaging      | Type and send messages with real-time delivery                          |
+| File Sharing           | Upload screenshots, documents, or other attachments                     |
+| Typing Indicator       | See when the agent is typing or reviewing your messages                 |
+| Read Receipts          | Know when your message has been seen by the support agent               |
+| Agent Presence Status  | Shows whether the agent is **online**, **typing**, or **idle**          |
 
 ---
 
-### <i class="fa-solid fa-thumbtack"></i> Key Highlights
+## After the Conversation
 
-- **No login required** to start chatting.
-- **Instant support** when agents are available.
-- **Conversation history** is preserved during your session.
-- **Supports file attachments** for better explanation.
-- **Follow-up possible** if you provide email or phone.
+When the chat session concludes:
+
+1. The support agent may **close the chat** to mark the issue as resolved.
+2. You may be asked to provide **feedback** or **rate your experience**.
+3. If needed, you can **reopen the chat window** to resume the conversation while your session is active.
 
 ---
 
-### <i class="fa-solid fa-lightbulb"></i> Tips for Best Experience
+## Visual Preview
 
-- Always provide **accurate name and contact info** for better support.
-- Use attachments to help explain issues clearly.
-- Leave feedback to help us improve future support quality.
+<img src="assets/customer.png" alt="Chat Popup Interface" width="650" />
+<img src="assets/customerMessage.png" alt="Live Chat in Progress" width="650" />
 
+---
+
+## Key Highlights
+
+- **No login required** – Start chatting immediately as a guest
+- **Real-time support** – Receive instant replies when agents are available
+- **Session-based chat history** – Your messages are preserved during the session
+- **Attachment support** – Share relevant files for better assistance
+- **Follow-up ready** – Agents can reach out via email/phone if provided
+
+---
+
+## Best Practices for Customers
+
+To ensure the most effective support experience:
+
+- Provide a **valid name and contact method**
+- Use clear and concise language when describing your issue
+- Attach relevant screenshots or documents to help explain the problem
+- Always leave feedback at the end of your session to help improve service
+
+---
+
+For further assistance, visit our support portal: [https://support.microdeets.com](https://support.microdeets.com)

@@ -1,153 +1,180 @@
-## <i class="fa-solid fa-screwdriver-wrench"></i> Admin Dashboard
+# Admin Dashboard – Full Documentation
 
-The **Admin Dashboard** provides a complete overview and control panel for managing your live chat support system. Only authenticated administrators can access this area.
+The **Admin Dashboard** is the central control panel for managing your live chat support system. It empowers administrators to oversee all operational aspects including chat monitoring, staff management, performance analytics, and system preferences.
 
----
-
-### <i class="fa-solid fa-clipboard-list"></i> Main Dashboard Overview
-
-After login, the admin is taken to the **Main Dashboard**, which displays:
-
-#### <i class="fa-solid fa-chart-bar"></i> Summary Metrics
-
-| Metric                | Description                                                |
-|------------------------|------------------------------------------------------------|
-| Active Chats           | Number of ongoing live chats                               |
-| Waiting                | Chats pending agent assignment                             |
-| Closed                 | Successfully ended chat sessions                           |
-| Transferred            | Chats transferred from one agent to another                |
-| Unassigned             | Chats that haven’t been picked up yet                      |
-| Total Messages         | Total message exchanges across all chats                   |
-| Customers              | Total number of users who started a conversation           |
-| Support Agents         | Number of registered support staff                         |
-| Analytics              | Summary of key performance indicators                      |
-| Agent Leaderboard      | Agent performance overview                                 |
-
-#### <i class="fa-solid fa-calendar-days"></i> Time-Based Status
-
-- View key metrics filtered by:
-  - **Daily**
-  - **Weekly**
-  - **Monthly**
-
-<img src="assets/adminDashboard.png" alt="Main Dashboard Page Screenshot" width="650" />
+Only authenticated users with the **Admin** role can access this dashboard.
 
 ---
 
-### <i class="fa-solid fa-comments"></i> Live Chats Menu
+## 1. Accessing the Admin Dashboard
 
-- Navigate to **Live Chats** → **Agent Chat Dashboard**
-- Monitor all active conversations
-- Track chat progress and agent availability in real time
-
-<img src="assets/dashboardMessage.png" alt="Live Chats Menu Page Screenshot" width="650" />
+- Visit: [https://support.microdeets.com](https://support.microdeets.com)
+- Log in using valid administrator credentials.
+- You will be redirected to the **Main Dashboard** after login.
 
 ---
 
-### <i class="fa-solid fa-user-tie"></i> Support Staff Menu
+## 2. Main Dashboard Overview
 
-- View list of all registered support agents
-- **Search & Filter** by name for quick access
-- **Add New Support Staff** by filling the following fields:
+### Summary Metrics
 
-| Field         | Description                                |
-|---------------|--------------------------------------------|
-| Full Name     | Agent's full name                          |
-| Email Address | Login email for the support agent          |
-| Password      | Secure password for access                 |
-| Role          | Select: `Support` or `Admin`               |
-| Account Status| Enable or Disable account on creation      |
+Displayed on login, this panel provides a quick glance at live system activity.
 
-> ✅ Click **Save** to register the new staff.
+| Metric              | Description                                             |
+|---------------------|---------------------------------------------------------|
+| Active Chats        | Number of chats currently ongoing                       |
+| Waiting             | Chats pending assignment to agents                     |
+| Closed              | Sessions marked as completed                           |
+| Transferred         | Chats handed over between agents                       |
+| Unassigned          | Chats awaiting first response or agent pickup          |
+| Total Messages      | All customer-agent message exchanges                   |
+| Customers           | Count of users who initiated a chat                    |
+| Support Agents      | Total registered agent accounts                        |
+| Analytics           | Direct link to platform KPIs                           |
+| Agent Leaderboard   | Snapshot of top-performing agents                      |
 
-#### 🔧 Manage Existing Agents
+**Time Filter:** View metrics by **Daily**, **Weekly**, or **Monthly** timeframes.
 
-- **Edit** agent info (name, email, role)
-- **Lock** accounts temporarily
-- **View Status**: Locked / Active
-
-<img src="assets/supportDashboard.png" alt="Support Staff Menu Page Screenshot" width="650" />
-
----
-
-### <i class="fa-solid fa-users"></i> Customers Menu
-
-- View all customer sessions with:
-
-| Info                         | Example                            |
-|------------------------------|------------------------------------|
-| Customer Name                | Md. Soliman Ali                    |
-| Support Agent Name           | Farid Ahmed                        |
-| Customer Email               | xyz@example.com                    |
-| Ticket Number                | #300                               |
-| Messaging Date               | Hoined on Jul 4, 2025              |
-
-- **Search** by:
-  - Name
-  - Email
-  - Phone
-- **Filter by Rating**:
-  - Use to identify chats with low satisfaction scores
-  - View the full chat log to understand issues and improve quality
-
-<img src="assets/customers.png" alt="Customers Menu Page Screenshot" width="650" />
-
-<img src="assets/customersChat.png" alt="Customers Menu Page Screenshot" width="650" />
+![Main Dashboard](assets/adminDashboard.png)
 
 ---
 
-### <i class="fa-solid fa-chart-line"></i> Analytics Menu
+## 3. Live Chats – Agent Monitoring
 
-Track key performance indicators (KPIs):
+Navigate to:  
+**Menu → Live Chats → Agent Chat Dashboard**
 
-| Metric                  | Description                                     |
-|--------------------------|------------------------------------------------|
-| Avg. Response Time       | Average time taken to respond to a message     |
-| Avg. Chat Duration       | Average duration of customer-agent chats       |
-| Satisfaction Score       | Based on customer ratings post-chat            |
-| Agents Online Summary    | Number and status of online agents             |
+### Capabilities:
+- View a list of all ongoing conversations
+- Track agent availability and engagement
+- Click into chats to observe or analyze in real time
 
-<img src="assets/analytics.png" alt="Analytics Menu Page Screenshot" width="650" />
-
----
-
-### <i class="fa-solid fa-trophy"></i> Leaderboard Menu
-
-Performance overview for all support staff:
-
-| Data Points              | Description                                 |
-|--------------------------|---------------------------------------------|
-| Agent Name               | Full name of the support staff              |
-| Total Chats              | Number of chats handled by each agent       |
-| Rating                   | Overall customer satisfaction rating        |
-
-<img src="assets/leaderboard.png" alt="Leaderboard Menu Page Screenshot" width="650" />
+![Live Chat Monitoring](assets/dashboardMessage.png)
 
 ---
 
-### <i class="fa-solid fa-gear"></i> Settings Menu
+## 4. Support Staff Management
 
-Customize admin preferences:
+Navigate to:  
+**Menu → Support Staff**
 
+### View Staff List
+- List all registered agents with name, email, role, and status
+- Search and filter by name or email
+
+### Add New Support Agent
+
+| Field           | Description                                |
+|------------------|--------------------------------------------|
+| Full Name       | Full name of the new agent                  |
+| Email Address   | Email used for login                        |
+| Password        | Secure login password                      |
+| Role            | Choose between: `Support` or `Admin`       |
+| Account Status  | Set to Enabled or Disabled during creation |
+
+> Click **Save** to add the new agent.
+
+### Manage Existing Agents
+- **Edit** profile details (name, email, role)
+- **Enable / Disable** login access
+- **View Status**: Active, Locked, or Offline
+
+![Support Staff](assets/supportDashboard.png)
+
+---
+
+## 5. Customer History and Session Logs
+
+Navigate to:  
+**Menu → Customers**
+
+### Features:
+- View all chat sessions with customer and agent info
+- Search by **name**, **email**, or **phone number**
+- Filter sessions by customer **rating score**
+
+| Field                | Example                   |
+|----------------------|---------------------------|
+| Customer Name        | Md. Soliman Ali           |
+| Support Agent        | Farid Ahmed               |
+| Customer Email       | xyz@example.com           |
+| Ticket Number        | #300                      |
+| Messaging Date       | Joined on Jul 4, 2025     |
+
+![Customer Sessions](assets/customers.png)  
+![Chat View](assets/customersChat.png)
+
+---
+
+## 6. Analytics Dashboard
+
+Navigate to:  
+**Menu → Analytics**
+
+Monitor system-wide KPIs to track performance and identify bottlenecks.
+
+| Metric                  | Description                                            |
+|--------------------------|--------------------------------------------------------|
+| Avg. Response Time       | Average time to respond to messages                   |
+| Avg. Chat Duration       | Average time spent per chat session                   |
+| Satisfaction Score       | Based on customer feedback post-chat                  |
+| Agents Online Summary    | Total agents active, idle, or offline                 |
+
+![Analytics](assets/analytics.png)
+
+---
+
+## 7. Agent Leaderboard
+
+Navigate to:  
+**Menu → Leaderboard**
+
+This section ranks agents by performance based on chat volume and customer ratings.
+
+| Metric            | Description                            |
+|-------------------|----------------------------------------|
+| Agent Name        | Full name of the support staff         |
+| Total Chats       | Number of chats handled                |
+| Rating            | Average satisfaction score (1–5 stars) |
+
+![Leaderboard](assets/leaderboard.png)
+
+---
+
+## 8. System Preferences
+
+Navigate to:  
+**Menu → Settings**
+
+Customize global system preferences for the admin environment.
+
+### Options:
 - Enable/Disable:
-  - **Notifications**
-  - **Sound alerts**
+  - Desktop notifications
+  - Sound alerts for incoming messages
 
-<img src="assets/settings.png" alt="Settings Menu Page Screenshot" width="650" />
-
----
-
-### <i class="fa-solid fa-door-open"></i> Logout
-
-Once all tasks are completed, click **Logout** to safely exit the admin panel.
+![Settings](assets/settings.png)
 
 ---
 
-### <i class="fa-solid fa-circle-check"></i> Notes & Recommendations
+## 9. Logout
 
-- Use **search and filters** for faster navigation with large agent or customer bases.
-- Regularly check **low-rated chats** for training and quality assurance.
-- Keep your agent list **organized and active** by locking unused accounts.
+After completing administrative tasks, click the **Logout** button to securely end your session.
 
-> _The Admin Dashboard is your central control panel to ensure high-quality, responsive customer service at all times._
+---
 
+## 10. Best Practices & Tips
+
+- Regularly **review closed chats** with low ratings to improve service quality.
+- Use **search and filters** to locate specific sessions quickly.
+- Keep support staff lists up to date by **locking inactive accounts**.
+- Use analytics to identify peak chat hours and allocate agents accordingly.
+- Encourage support staff to maintain **accurate status** (Online, Busy, Offline) for efficient routing.
+
+---
+
+## Summary
+
+The Admin Dashboard gives you full control over your customer support workflow. From managing agents and monitoring chats to analyzing performance, this dashboard helps ensure high-quality service delivery across your organization.
+
+For further customization or technical setup, please refer to the [Developer Integration Guide](./developer_integration.md) or contact your system administrator.
