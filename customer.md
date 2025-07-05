@@ -1,17 +1,17 @@
-## 💬 Customer Live Chat Guide
+## <i class="fa-solid fa-comments"></i> Customer Live Chat Guide
 
 The **Live Chat** feature allows customers to easily connect with a support agent for real-time assistance. This document outlines the steps and features available to customers during the chat experience.
 
 ---
 
-### 🔹 Where to Find It
+### <i class="fa-solid fa-location-dot"></i> Where to Find It
 
 - Available on the bottom-right of the screen as a **Live Chat** icon.
 - Click to open the **Chat Popup**.
 
 ---
 
-### 🧾 Getting Started
+### <i class="fa-solid fa-clipboard-list"></i> Getting Started
 
 When the chat popup appears:
 
@@ -27,7 +27,7 @@ After submitting the form, click **Start Chat**.
 
 ---
 
-### ⏳ Before the Conversation
+### <i class="fa-solid fa-hourglass-half"></i> Before the Conversation
 
 - Once you send a message, the system will show:
   - **“Waiting for support staff...”**
@@ -39,7 +39,7 @@ After submitting the form, click **Start Chat**.
 
 ---
 
-### 💬 During the Chat
+### <i class="fa-solid fa-comments"></i> During the Chat
 
 While chatting, you can:
 
@@ -52,7 +52,7 @@ While chatting, you can:
 
 ---
 
-### ✅ After the Conversation
+### <i class="fa-solid fa-circle-check"></i> After the Conversation
 
 Once the support issue is resolved:
 
@@ -65,7 +65,7 @@ Once the support issue is resolved:
 
 ---
 
-### 📌 Key Highlights
+### <i class="fa-solid fa-thumbtack"></i> Key Highlights
 
 - **No login required** to start chatting.
 - **Instant support** when agents are available.
@@ -75,7 +75,7 @@ Once the support issue is resolved:
 
 ---
 
-### 💡 Tips for Best Experience
+### <i class="fa-solid fa-lightbulb"></i> Tips for Best Experience
 
 - Always provide **accurate name and contact info** for better support.
 - Use attachments to help explain issues clearly.

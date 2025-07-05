@@ -1,14 +1,14 @@
-## 👤 Profile
+## <i class="fa-solid fa-user"></i> Profile
 
 The **Profile** tab allows Customer Support Agents to view and manage their personal settings after logging into the support system.
 
-### 🔹 Where to Find It
+### <i class="fa-solid fa-location-dot"></i> Where to Find It
 
 - After logging in, click on the **Profile** tab in the navigation menu.
 
 ---
 
-### 🧾 Profile Overview
+### <i class="fa-solid fa-clipboard-list"></i> Profile Overview
 
 The **Profile** section displays the following information and settings:
 
@@ -25,7 +25,7 @@ The **Profile** section displays the following information and settings:
 
 ---
 
-### ✅ How to Use
+### <i class="fa-solid fa-circle-check"></i> How to Use
 
 1. Click on the **Profile** tab from the main menu after logging in.
 2. Review your **Name** and **Email** information.

@@ -1,14 +1,14 @@
-## 🛠️ Admin Dashboard
+## <i class="fa-solid fa-screwdriver-wrench"></i> Admin Dashboard
 
 The **Admin Dashboard** provides a complete overview and control panel for managing your live chat support system. Only authenticated administrators can access this area.
 
 ---
 
-### 🧾 Main Dashboard Overview
+### <i class="fa-solid fa-clipboard-list"></i> Main Dashboard Overview
 
 After login, the admin is taken to the **Main Dashboard**, which displays:
 
-#### 📊 Summary Metrics
+#### <i class="fa-solid fa-chart-bar"></i> Summary Metrics
 
 | Metric                | Description                                                |
 |------------------------|------------------------------------------------------------|
@@ -23,7 +23,7 @@ After login, the admin is taken to the **Main Dashboard**, which displays:
 | Analytics              | Summary of key performance indicators                      |
 | Agent Leaderboard      | Agent performance overview                                 |
 
-#### 📅 Time-Based Status
+#### <i class="fa-solid fa-calendar-days"></i> Time-Based Status
 
 - View key metrics filtered by:
   - **Daily**
@@ -34,7 +34,7 @@ After login, the admin is taken to the **Main Dashboard**, which displays:
 
 ---
 
-### 💬 Live Chats Menu
+### <i class="fa-solid fa-comments"></i> Live Chats Menu
 
 - Navigate to **Live Chats** → **Agent Chat Dashboard**
 - Monitor all active conversations
@@ -44,7 +44,7 @@ After login, the admin is taken to the **Main Dashboard**, which displays:
 
 ---
 
-### 🧑‍💼 Support Staff Menu
+### <i class="fa-solid fa-user-tie"></i> Support Staff Menu
 
 - View list of all registered support agents
 - **Search & Filter** by name for quick access
@@ -70,7 +70,7 @@ After login, the admin is taken to the **Main Dashboard**, which displays:
 
 ---
 
-### 👥 Customers Menu
+### <i class="fa-solid fa-users"></i> Customers Menu
 
 - View all customer sessions with:
 
@@ -96,7 +96,7 @@ After login, the admin is taken to the **Main Dashboard**, which displays:
 
 ---
 
-### 📈 Analytics Menu
+### <i class="fa-solid fa-chart-line"></i> Analytics Menu
 
 Track key performance indicators (KPIs):
 
@@ -111,7 +111,7 @@ Track key performance indicators (KPIs):
 
 ---
 
-### 🏆 Leaderboard Menu
+### <i class="fa-solid fa-trophy"></i> Leaderboard Menu
 
 Performance overview for all support staff:
 
@@ -125,7 +125,7 @@ Performance overview for all support staff:
 
 ---
 
-### ⚙️ Settings Menu
+### <i class="fa-solid fa-gear"></i> Settings Menu
 
 Customize admin preferences:
 
@@ -137,13 +137,13 @@ Customize admin preferences:
 
 ---
 
-### 🚪 Logout
+### <i class="fa-solid fa-door-open"></i> Logout
 
 Once all tasks are completed, click **Logout** to safely exit the admin panel.
 
 ---
 
-### ✅ Notes & Recommendations
+### <i class="fa-solid fa-circle-check"></i> Notes & Recommendations
 
 - Use **search and filters** for faster navigation with large agent or customer bases.
 - Regularly check **low-rated chats** for training and quality assurance.

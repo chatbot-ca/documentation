@@ -1,16 +1,16 @@
-## 🧑‍💼 Customer Support Agent Dashboard
+## <i class="fa-solid fa-headset"></i> Customer Support Agent Dashboard
 
 The **Customer Support Agent Dashboard** provides a real-time, interactive environment for agents to manage and respond to customer inquiries efficiently.
 
 ---
 
-### 📍 Where to Find It
+### <i class="fa-solid fa-location-dot"></i> Where to Find It
 
 - Available immediately after login.
 
 ---
 
-### 💬 Chats Tab Overview
+### <i class="fa-solid fa-comments"></i> Chats Tab Overview
 
 The **Chats** tab allows support agents to view and handle all customer messages in real-time.
 
@@ -28,7 +28,7 @@ The **Chats** tab allows support agents to view and handle all customer messages
 
 ---
 
-### ✅ How to Use
+### <i class="fa-solid fa-circle-check"></i> How to Use
 
 1. **Login** to the dashboard and go to the **Chats** tab.
 2. View the list of **incoming messages** from customers.
@@ -50,7 +50,7 @@ The **Chats** tab allows support agents to view and handle all customer messages
 
 ---
 
-### 🔁 Chat Status Flow
+### <i class="fa-solid fa-arrows-rotate"></i> Chat Status Flow
 
 ```plaintext
 Incoming → Joined by Agent → In Progress → Closed (with Rating)
