@@ -5,6 +5,9 @@ Welcome to the **Microdeets Live Chat Support System**. This guide offers a comp
 ### About This Guide
 This documentation follows internationally recognized guidelines so that teams around the world can adopt the platform with ease. Each section provides clear explanations and links to relevant topics.
 
+### How to Navigate
+Use the menu on the left side of the screen to jump between topics. Each link opens the relevant page without reloading the entire site.
+
 ---
 
 ### Admin Features
