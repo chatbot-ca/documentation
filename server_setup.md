@@ -9,24 +9,7 @@
 
 ## Nginx Configuration
 
-### Basic HTTP proxy
-
-```nginx
-server {
-    listen 80;
-    server_name demo-agent.microdeets.com;
-    location / {
-        proxy_pass http://localhost:3001;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-}
-```
-
-### Optional HTTPS with Certbot
+###  HTTPS with SSL
 
 1. Install Certbot and the Nginx plugin (`sudo apt install certbot python3-certbot-nginx`).
 2. Obtain certificates: `sudo certbot --nginx -d demo-agent.microdeets.com`.
@@ -54,20 +37,6 @@ server {
 ```
 
 ## Apache2 Configuration
-
-### Basic HTTP proxy
-
-1. Enable required modules:
-   `sudo a2enmod proxy proxy_http proxy_wstunnel ssl rewrite`
-2. Example virtual host:
-
-```apache
-<VirtualHost *:80>
-    ServerName demo-agent.microdeets.com
-    ProxyPass "/" "http://localhost:3001/"
-    ProxyPassReverse "/" "http://localhost:3001/"
-</VirtualHost>
-```
 
 ### Optional HTTPS with Certbot
 
@@ -102,11 +71,49 @@ DB_NAME=livechat
 JWT_SECRET=your_super_secret_key$livechat
 PORT=3001
 ```
+## Setup admin user in Environment Variables
+```
+DEFAULT_ADMIN_EMAIL=admin@example.com
+DEFAULT_ADMIN_PASSWORD=change_me
+DEFAULT_ADMIN_NAME=Admin
+DEFAULT_ADMIN_ROLE=admin
+DEFAULT_ADMIN_ENABLED=1
+```
 
 ## Install Dependencies and Run the Server
 
 ```bash
-npm install
-npm run dev
+npm install --production
+sudo npm install -g pm2
+pm2 start npm --name "livechat-admin" -- run start
+pm2 startup systemd
+pm2 save
+pm2 logs livechat-admin
 ```
 
+## Flutter App Configuration (Client Side)
+- Update your Flutter AppConfig to use the new domain:
+  ```
+  import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+class AppConfig {
+  static String get baseUrl => 'https://support.microdeets.com';
+  static String get apiBaseUrl => '${baseUrl}/api';
+
+  static const String appName = "Microdeets Support Chat";
+  static const String appVersion = "1.0.0";
+
+  // Timeout durations
+  static const Duration apiTimeout = Duration(seconds: 10);
+
+  // Route paths
+  static const String loginRoute = "/login";
+  static const String chatListRoute = "/chats";
+  static const String chatDetailRoute = "/chat";
+
+  // Shared Preferences keys
+  static const String authTokenKey = "jwt_token";
+  static const String userInfoKey = "user_info";
+}
+
+  ```
