@@ -94,8 +94,6 @@ pm2 logs livechat-admin
 ## Flutter App Configuration (Client Side)
 - Update your Flutter AppConfig to use the new domain:
   ```
-  import 'package:flutter_dotenv/flutter_dotenv.dart';
-
 class AppConfig {
   static String get baseUrl => 'https://support.microdeets.com';
   static String get apiBaseUrl => '${baseUrl}/api';
