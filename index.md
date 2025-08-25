@@ -37,6 +37,12 @@ This section summarizes the initial steps for using the platform effectively.
 
 ---
 
+## Server Setup
+
+See [Server Setup](./server_setup.md) for instructions on configuring DNS and web servers.
+
+---
+
 ## Platform Features
 
 ### Admin Tools
